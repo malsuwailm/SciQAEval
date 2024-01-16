@@ -35,6 +35,27 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+## Setting up PyTorch with CUDA Support
+
+To leverage GPU acceleration with PyTorch, ensure you have a CUDA-compatible GPU and the appropriate version of CUDA installed. Follow these steps to install PyTorch with CUDA support:
+
+1. First, make sure you have the NVIDIA CUDA Toolkit installed. The version of the toolkit should be compatible with the PyTorch build you intend to install.
+
+2. Use the following command to install PyTorch with CUDA support through Conda:
+
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+This command installs PyTorch with CUDA 11.8 support, which allows you to run PyTorch on the GPU.
+
+1. Verify the installation by running:
+
+```
+import torch
+print(torch.cuda.is_available())  # This should return True if CUDA is properly set up
+```
+
 ## Usage
 
 Run the questionEvaluationPipeline.py script with the path to your labeled test data in CSV format:
