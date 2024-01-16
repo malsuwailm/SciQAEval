@@ -78,6 +78,17 @@ python scoreVisualization.py
 
 ## Model Performance
 
+## Average Evaluation Scores
+
+| Metric                    | Average Score | Description |
+|---------------------------|---------------|-------------|
+| Semantic Similarity       | 0.713         | Indicates that the generated answers are, on average, semantically similar to the correct answers. |
+| BLEU Score                | 0.103         | Suggests that answers may be correct but phrased differently than the references. |
+| ROUGE-L Score             | 0.305         | Implies a moderate structural similarity between the generated and reference answers. |
+| BERTScore F1              | 0.181         | On the lower side, highlighting potential areas for the model to improve in generating semantically precise answers. |
+
+
+![Histograms]([https://github.com/your-username/SciQAEval/blob/main/images/Screenshot%20from%202024-01-15%2018-56-06.png](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/bars.png))
 
 
 ## Contributing
