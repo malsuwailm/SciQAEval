@@ -87,8 +87,10 @@ Average Evaluation Scores
 | ROUGE-L Score             | 0.305         | Implies a moderate structural similarity between the generated and reference answers. |
 | BERTScore F1              | 0.181         | On the lower side, highlighting potential areas for the model to improve in generating semantically precise answers. |
 
-
+---
 ![Histograms](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/bars.png)
+
+---
 
 ![BoxPlot](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/boxplot.png)
 
