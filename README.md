@@ -31,7 +31,9 @@ git clone https://github.com/malsuwailm/SciQAEval.git
 
 Install the required dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 ## Usage
 
