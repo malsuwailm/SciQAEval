@@ -78,7 +78,7 @@ python scoreVisualization.py
 
 ## Model Performance
 
-## Average Evaluation Scores
+Average Evaluation Scores
 
 | Metric                    | Average Score | Description |
 |---------------------------|---------------|-------------|
@@ -87,10 +87,10 @@ python scoreVisualization.py
 | ROUGE-L Score             | 0.305         | Implies a moderate structural similarity between the generated and reference answers. |
 | BERTScore F1              | 0.181         | On the lower side, highlighting potential areas for the model to improve in generating semantically precise answers. |
 
-&nbsp;
 
 ![Histograms](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/bars.png)
 
+![BoxPlot](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/boxplot.png)
 
 ## Contributing
 
