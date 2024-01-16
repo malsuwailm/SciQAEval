@@ -58,6 +58,12 @@ print(torch.cuda.is_available())  # This should return True if CUDA is properly 
 
 ## Usage
 
+Run the questionAnsweringPipeline.py script with your question regarding the scientific article:
+
+```
+python questionAnsweringPipeline.py "your question here"
+```
+
 Run the questionEvaluationPipeline.py script with the path to your labeled test data in CSV format:
 
 ```
