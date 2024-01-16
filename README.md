@@ -105,7 +105,3 @@ The histograms and metrics paint a promising yet nuanced picture. The Semantic S
 
 Contributions to SciQAEval are welcome! Please fork the repository and submit a pull request with your proposed changes.
 
-## License
-
-Distributed under the MIT License. See LICENSE for more information.
-
