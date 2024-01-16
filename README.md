@@ -94,6 +94,12 @@ Average Evaluation Scores
 
 ![BoxPlot](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/boxplot.png)
 
+---
+
+The histograms and metrics paint a promising yet nuanced picture. The Semantic Similarity scores, with an average of 0.713, predominantly cluster at the higher end, indicating a strong alignment between the generated answers and the intricacies of the scientific content within the articles. However, the lower BLEU and BERTScore F1 averages of 0.103 and 0.181, respectively, hint at variances in verbatim accuracy and the semantic precision of the responses. Notably, a moderate ROUGE-L average of 0.305 suggests that the structural essence of the content is captured to a certain extent. These insights, derived from manual labeling of data from the original article, underscore the potential of the model while also delineating a pathway for refinement, especially in a domain where the exactitude of information is paramount.
+
+---
+
 ## Contributing
 
 Contributions to SciQAEval are welcome! Please fork the repository and submit a pull request with your proposed changes.
