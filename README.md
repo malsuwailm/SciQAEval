@@ -88,7 +88,7 @@ python scoreVisualization.py
 | BERTScore F1              | 0.181         | On the lower side, highlighting potential areas for the model to improve in generating semantically precise answers. |
 
 
-![Histograms]([https://github.com/your-username/SciQAEval/blob/main/images/Screenshot%20from%202024-01-15%2018-56-06.png](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/bars.png))
+![Histograms](https://github.com/malsuwailm/SciQAEval/blob/main/visualizations/bars.png)
 
 
 ## Contributing
